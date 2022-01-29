@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+      
+      body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+    .navbar {
+      background-color: #11772d;
+      box-shadow: 1px 0.1px 7px #11772d;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+    }
+    .nav-link {
+      margin-right: 50px;
+    }
+
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #eeffe4;
+      width: 80%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -10px;
+    }
+    .active {
+      background-color: #eeffe4;
+      color: #11772d !important;
+      border-radius: 5px;
+    }
+      .masuk{
+        padding: 20px;
+      }
+        .tombol-hijau{
+            background: #11772d;
+            color: white;
+            border: none;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .section-1{
+            text-align: center;
+            font-size: 18px;
+            padding: 40px;
+            background: url('image/4f.jpg')
+        }
+        .linkfooter {
+      text-decoration: none; 
+      color: #fff; 
+    }
+
+    .linkfooter:hover {
+      text-shadow: 0 10px 8px 0 #eeffe4 ;
+      color: #57e67d;
+    }
+    img{
+      float: right;
+      width: 6%;
+    }
+
+    </style>
+    <title>DAFTAR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar Awal -->
+    <nav style="background-color: #11772d" class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">KSM Android UPNVJ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Study Club</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link active" href="daftar.html">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Akhir -->
+
+    <div>
+      <img style="margin-top: 20px" src="assets/img/ksm2.png" alt="KSM-Android">
+    </div>
+
+<div class="masuk mb-3 mt-5 ms-5 text-center">
+<h1>DAFTAR</h1>
+</div>
+
+  <!--form untuk menginput username,password-->
+  <section id="daftar" class="daftar" style="background-color: #eeffe4">
+<div class="section-1">
+     <div>
+     <form>
+     <table border="0" align="center">
+     <tr><td>
+     <input style="font-size: 20px" type="text" id="uname" name="uname" placeholder="Nama Pengguna"></td></tr>
+     <tr><td>
+      <input  style="font-size: 20px" type="text" id="uname" name="uname" placeholder="Email"></td></tr>
+     <tr><td>
+     <input  style="font-size: 20px" type="password" id="pass" name="pass" placeholder="Kata Sandi"></td></tr>
+ </table>
+ <input class="tombol-hijau" type="submit" value="Register" name="register">
+     </form>
+     <p> Sudah punya akun? <a href="login.html">Login</a></p>
+     </div>
+ </div>
+</section>
+
+   <!-- Footer -->
+   <section>
+    <footer  style="text-align:center; color:#eeffe4; background-color:#11772d; height:155px; line-height:60px; margin-bottom: 0;">
+      <p>
+        Developed with &#10084;&#65039; by <span> 
+            Team 1</span> </p>
+      <p style="margin-top: -40px">
+      📧
+      <a class="linkfooter" href="mailto:khairull@upnvj.ac.id">Khairul</a>
+      | 
+      <a class="linkfooter" href="mailto:nabilahlp@upnvj.ac.id">Nabilah</a>
+      |
+      <a class="linkfooter" href="mailto:rahmataminu@upnvj.ac.id">Rahmatami</a>
+        | 
+      <a class="linkfooter" href="mailto:ripaiv@upnvj.ac.id">Ripai</a> 
+      📧
+      </p>  
+      <p style="margin-top: -40px;"> Copyright &#169; 2021 | KSM Android 2021</p> 
+  </footer>    
+</section>
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KSM Android UPNVJ | Study Club</title>
+
+        <!-- Link Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #11772d;
+      box-shadow: 1px 0.1px 7px #11772d;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+    }
+    .nav-link {
+      margin-right: 50px;
+    }
+
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #eeffe4;
+      width: 80%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -10px;
+    }
+
+    .active {
+      background-color: #eeffe4;
+      color: #11772d !important;
+      border-radius: 5px;
+    }
+
+    .card {
+      background-color: #11772d;
+      color: #fff;
+      text-align: center;
+    }
+
+    .btn {
+      border: 2px solid #11772d;
+      color: #11772d;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #11772d;
+      color: #fff;
+      border: 2px solid #11772d;
+    }
+
+    /* timeline */
+      .hori-timeline .events {
+        border-top: 3px solid #11772d;
+      }
+      .hori-timeline .events .event-list {
+        display: block;
+        position: relative;
+        text-align: center;
+        padding-top: 70px;
+        margin-right: 0;
+      }
+
+      .px-4 {
+        padding-top: 20px;
+        margin-left: -20px;
+      }
+
+      .px-4 h5 {
+        color: #11772d;
+        font-weight: bolder;
+      }
+
+      .hori-timeline .events .event-list .event-date {
+        position: absolute;
+        top: 38px;
+        left: 0;
+        right: 0;
+        width: 150px;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 2px 4px;
+      }
+      @media (min-width: 1140px) {
+        .hori-timeline .events .event-list {
+          display: inline-block;
+          width: 24%;
+          padding-top: 45px;
+        }
+        .hori-timeline .events .event-list .event-date {
+          top: -12px;
+        }
+      }
+      .card {
+        margin-bottom: 24px;
+        margin-top: 10px;
+        background-color: #fff !important;
+      }
+      
+    .linkfooter {
+      text-decoration: none; 
+      color: #fff; 
+      font-weight: bold;
+    }
+
+    .linkfooter:hover {
+      text-shadow: 0 10px 8px 0 #eeffe4 ;
+      color: #57e67d;
+    }
+
+    a {
+      cursor:pointer;
+    }
+
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Awal -->
+    <nav style="background-color: #11772d" class="navbar navbar-expand-lg navbar-dark bg-Success mb-5 fixed-top" id="mainNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#page-top">KSM Android UPNVJ</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+    aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          <a class="nav-link active" href="studyclub.html">Study Club</a>
+          <a class="nav-link" href="project.html">Project</a>
+          <a class="nav-link" href="about.html">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- Navbar Akhir -->
+
+
+    <!-- Project Awal-->
+    <section id="project" class="project" style="margin-top: 80px;">
+      <div class="container">
+
+        <!-- start row 1 -->
+        <div class="row">
+          <div class="col">
+             <div class="text-center">
+              <img width="200px" src="assets/img/SC2_Logo.png"alt=><br>
+             </div>
+             <div style="font-size: 55rem medium; border-bottom: solid #11772d; width: 30%; margin: auto; color: #11772d; box-shadow: 0 5px 5px -5px #11772d; border-radius: 20px; margin-bottom: 30px;" class="text-center">            
+               <p style="font-size: 15px;"><br>
+                  By <span style="color: #11772d; font-weight: bolder;">Ayunda Rahawati</span> on July 17, 2021
+               </p>
+            </div>
+
+          </div>
+        </div>
+
+      <!-- Start row 1-->
+      <div class="row mt-4">
+        <!-- col 1 -->
+        <div class="col-lg-4 col-md-12 mb-4">
+        <!-- modal start -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <img style="width: 100%;" src="assets/img/SC2_1.png" alt="SC2_1" />
+                </div>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal end -->
+          <div class="card">
+            <a><img class="modalimg img-fluid" src="assets/img/SC2_1.png" alt="video"
+              data-toggle="modal" data-target="#modal1"></a>
+          </div>
+        </div>
+        <!-- col 1 -->
+
+       <!-- col 2 -->
+       <div class="col-lg-4 col-md-12 mb-4">
+        <!-- modal start -->
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <img style="width: 100%;" src="assets/img/SC2_2.PNG" alt="SC2_2" />
+                </div>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal end -->
+          <div class="card">
+            <a><img class="img-fluid" src="assets/img/SC2_2.PNG" alt="video"
+              data-toggle="modal" data-target="#modal2"></a>
+          </div>
+        </div>
+       <!-- col 2 -->
+
+       <!-- col 3  -->
+       <div class="col-lg-4 col-md-12 mb-4">
+        <!-- modal start -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <img style="width: 100%;" src="assets/img/SC2_3.png" alt="SC2_3" />
+                </div>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal end -->
+          <div class="card">
+            <a><img class="img-fluid" src="assets/img/SC2_3.png" alt="video"
+              data-toggle="modal" data-target="#modal3"></a>
+          </div>
+        </div>
+       </div>
+       <!-- col 3  -->    
+              
+
+
+         <!-- Desc Project Start -->
+         <div class="desc">
+            <h4 style="color: #11772d; margin-top: 40px; ">Project Descriptions</h4>
+            <p style="text-align: justify;">
+                Masih banyaknya permasalahan kulit wajah yang dimiliki oleh sebagian wanita, membuat sebagian wanita merasa tidak nyaman dan kurang percaya diri. Permasalahan kulit wajah tersebut bisa berasal dari dalam ataupun dari luar. Untuk itu dibuat lah aplikasi pendeteksi kesehatan kulit wajah dengan beberapa fitur yang dapat membantu menyelesaikan permasalahan kullit tersebut.
+             <br> Di design dengan sepenuh hati oleh <b style="color: #11772d;"> Ayunda Rahmwati</b>
+               <hr>
+            </p>
+         </div>
+         <!-- Desc Project End -->
+
+         </div>      
+         <svg style="margin-top: -50px;" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 320" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(238, 255, 228, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,96L80,117.3C160,139,320,181,480,165.3C640,149,800,75,960,69.3C1120,64,1280,128,1440,149.3C1600,171,1760,149,1920,122.7C2080,96,2240,64,2400,42.7C2560,21,2720,11,2880,42.7C3040,75,3200,149,3360,176C3520,203,3680,181,3840,181.3C4000,181,4160,203,4320,181.3C4480,160,4640,96,4800,106.7C4960,117,5120,203,5280,218.7C5440,235,5600,181,5760,170.7C5920,160,6080,192,6240,197.3C6400,203,6560,181,6720,192C6880,203,7040,245,7200,234.7C7360,224,7520,160,7680,160C7840,160,8000,224,8160,213.3C8320,203,8480,117,8640,101.3C8800,85,8960,139,9120,138.7C9280,139,9440,85,9600,53.3C9760,21,9920,11,10080,26.7C10240,43,10400,85,10560,117.3C10720,149,10880,171,11040,197.3C11200,224,11360,256,11440,272L11520,288L11520,320L11440,320C11360,320,11200,320,11040,320C10880,320,10720,320,10560,320C10400,320,10240,320,10080,320C9920,320,9760,320,9600,320C9440,320,9280,320,9120,320C8960,320,8800,320,8640,320C8480,320,8320,320,8160,320C8000,320,7840,320,7680,320C7520,320,7360,320,7200,320C7040,320,6880,320,6720,320C6560,320,6400,320,6240,320C6080,320,5920,320,5760,320C5600,320,5440,320,5280,320C5120,320,4960,320,4800,320C4640,320,4480,320,4320,320C4160,320,4000,320,3840,320C3680,320,3520,320,3360,320C3200,320,3040,320,2880,320C2720,320,2560,320,2400,320C2240,320,2080,320,1920,320C1760,320,1600,320,1440,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      </svg>
+    </section>   
+
+      <!-- waves -->
+
+    <section id="project" class="project" style="margin-top: -30px;">
+      <div class="container">
+         <h5>Kamu anggota <span style="color: #11772d; font-weight: bolder;">KSM Android UPNVJ </span> ,</h5>
+         <h5>dan mau coba ikutan <span style="color: #11772d; font-weight: bolder;">Study Club </span> juga?</h5>
+         <br>
+         <p>Yuk! Cek <span style="color: #11772d; font-weight: bolder;">Timeline</span> kita! Jangan sampai kelewatan ya, Sobat! 😉 </p>
+
+         <!-- Timeline start -->
+            <div class="hori-timeline" style="text-align: center; margin-top: 100px;">
+              <ul class="list-inline events">
+                <li class="list-inline-item event-list" style="top: -6px; ">
+                  <div class="px-4">
+                    <div class="event-date" style="background-color: #2400ff; color: white; border-radius: 10px; padding: 8px">20 - 25 April</div>
+                    <h5 class="font-size-16">Registrasi</h5>
+                    <p class="text-muted">Segera daftarkan tim kamu melalui <em>website</em> KSM Android</p>
+                  </div>
+                </li>
+                <li class="list-inline-item event-list" style="top: -6px">
+                  <div class="px-4">
+                    <div class="event-date" style="background-color: #5e4c1f; color: white; border-radius: 10px; padding: 8px">1 - 3 Mei</div>
+                    <h5 class="font-size-16">Technical Meeting</h5>
+                    <p class="text-muted">Ada pertanyaan seputar project? Tanyakan pada sesi ini ya!</p>
+                  </div>
+                </li>
+                <li class="list-inline-item event-list" style="top: -6px">
+                  <div class="px-4">
+                    <div class="event-date" style="background-color: #ff0000; color: white; border-radius: 10px; padding: 8px">10 - 15 Mei</div>
+                    <h5 class="font-size-16">Final Project</h5>
+                    <p class="text-muted">Persiapkan hasil projectmu untuk dipresentasikan kepada para Juri</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Timeline end -->
+
+            <!-- Button daftar -->
+            <div class="align-items-center justify-content-center" style="text-align: center;">
+              <button style="margin-bottom: 50px;" type="button" class="btn">Daftar Study Club</button>
+            </div>
+            
+      
+      </div>
+    </section>
+        
+    <!-- waves start -->
+    <section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#11772d" fill-opacity="1" d="M0,64L120,74.7C240,85,480,107,720,106.7C960,107,1200,85,1320,74.7L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>      
+    </section>
+    <!-- waves end -->
+
+   <!-- Footer -->
+   <footer  style="text-align:center; color:#eeffe4; background-color:#11772d; height:120px; line-height:60px; margin-top: -170px;">
+    <p>
+       Developed with &#10084;&#65039; by <span> 
+          <b>Team 1</span></b> </p>
+    <p style="margin-top: -40px">
+    📧
+    <a class="linkfooter" href="mailto:khairull@upnvj.ac.id">Khairul</a>
+    | 
+    <a class="linkfooter" href="mailto:nabilahlp@upnvj.ac.id">Nabilah</a>
+    |
+    <a class="linkfooter" href="mailto:rahmataminu@upnvj.ac.id">Rahmatami</a>
+       | 
+    <a class="linkfooter" href="mailto:ripaiv@upnvj.ac.id">Ripai</a> 
+    📧
+    </p>  
+    <p style="margin-top: -40px;"> Copyright &#169; 2021 | KSM Android UPNVJ </p></span>
+ </footer>    
+</section>    
+  </body>
+</html>
